@@ -1,13 +1,4 @@
-<div id="chart1" style="display: block;">
-  <canvas
-    
-    baseChart
-    [datasets]="barChartData"
-    [labels]="barChartLabels"
-    [options]="barChartOptions"
-    
-  >
-  </canvas>
-</div>
-
-
+<app-barChart
+  [barChartData]="barChartData"
+  [barChartLabelsDays]="barChartLabelsDays"
+></app-barChart>

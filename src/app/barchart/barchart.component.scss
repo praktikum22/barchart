@@ -1,0 +1,27 @@
+#chart1 {
+  width: 50vw;
+}
+.barChart {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+button {
+  background-color: #4bb0df;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.wrapper {
+  display: flex;
+}
+.wrapper div {
+  flex: 1 0 auto;
+}

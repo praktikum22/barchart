@@ -1,0 +1,20 @@
+<div class="barChart">
+  <div id="chart1" style="display: block; align-items: center">
+    <canvas
+      baseChart
+      [datasets]="slicedData()"
+      [labels]="slicedLabels()"
+      [options]="barChartOptions"
+    >
+    </canvas>
+  </div>
+</div>
+
+<h2></h2>
+<div class="wrapper">
+  <div></div>
+  <button class="button" (click)="decrementWeek()">vorherige Woche</button>
+  <div></div>
+  <button class="button1" (click)="incrementWeek()">nächste Woche</button>
+  <div></div>
+</div>

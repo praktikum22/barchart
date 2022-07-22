@@ -5,18 +5,20 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { barChartComponent } from './barchart/barchart.component';
+import { BarchartService } from './barchart/barchart.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent, barChartComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgChartsModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [BarchartService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
