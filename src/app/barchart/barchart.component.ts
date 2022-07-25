@@ -65,23 +65,6 @@ export class barChartComponent {
           text: 'Stunden',
         },
       },
-      // xAxes: [{
-      //     scaleLabel: {
-      //       display: true,
-      //       labelString: 'probability'
-      //     },
-      //     stacked: true,
-      //   },
-      // ],
-      // yAxes: [{
-      //   display: false,
-      //   scaleLabel: {
-      //     display: true,
-      //     labelString: 'probability'
-      //   },
-      //   stacked: true,
-      // }
-      // ],
     },
   };
   public barChartType: string = 'bar';

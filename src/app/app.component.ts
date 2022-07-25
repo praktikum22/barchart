@@ -13,7 +13,6 @@ export class AppComponent {
   currentItem = 'barChart';
   colors = [
     '#145DA0',
-    '#0000FF',
     '#0C2D48',
     '#2E8BC0',
     '#B1D4E0',
@@ -23,6 +22,9 @@ export class AppComponent {
     '#75E6DA',
     '#21B6A8',
     '#04ECF0',
+    '#21B6A8',
+    '#90ADC6',
+    '#007575',
   ];
   public barChartData: any[] = [
     {
@@ -52,7 +54,6 @@ export class AppComponent {
 
   getHours() {
     const seconds = 3600;
-    // console.log(this.barchartService.calculataTime(seconds));
   }
   getBarChartlabels() {
     console.log(data);

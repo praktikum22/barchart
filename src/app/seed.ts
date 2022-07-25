@@ -42,6 +42,7 @@ export const data = {
           projectTime: [
             { id: 63, dayId: 63, projectId: 2, time: 9000 },
             { id: 64, dayId: 63, projectId: 1000, time: 7200 },
+            { id: 65, dayId: 63, projectId: 6, time: 6500 },
           ],
         },
         {
@@ -56,7 +57,7 @@ export const data = {
           date: '2022-05-05T10:00:00.000Z',
           loggedTime: 30600,
           timeSheetId: 4,
-          projectTime: [{ id: 65, dayId: 65, projectId: null, time: 3600 }],
+          projectTime: [{ id: 65, dayId: 65, projectId: 6, time: 3600 }],
         },
         {
           id: 66,
