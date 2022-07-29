@@ -67,7 +67,7 @@ export class barChartComponent {
       },
     },
   };
-  public barChartType: string = 'bar';
+  //public barChartType: string = 'bubble';
 
   constructor() {}
 
